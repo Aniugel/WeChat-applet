@@ -1,0 +1,20 @@
+<view class='list'>
+    <navigator class='li' url='{{url}}'>
+      <view class='box'>
+        <view>
+          <image src='{{iconPath}}'></image>
+          <text class='text'>{{iconName}}</text>
+        </view>
+        <image class='rightArrown' src='{{backArrown}}'></image>
+      </view>
+    </navigator>
+    <view class='li' url='{{item.url}}' wx:for='{{items}}' bindtap='{{item.tap}}' wx:key>
+      <view class='box'>
+        <view>
+          <image src='{{item.iconPath}}'></image>
+          <text class='text'>{{item.iconName}}</text>
+        </view>
+        <image class='rightArrown' src='{{backArrown}}'></image>
+      </view>
+    </view>
+  </view>

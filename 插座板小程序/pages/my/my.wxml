@@ -1,0 +1,23 @@
+<view class='bgColor'>
+  <view class='user'>
+    <image class='bg' src='../../images/mainBg.png'></image>
+    <image class='img' src='../../images/userHeader.png'></image>
+    <text>{{userName}}</text>
+  </view>
+  <view class='list'>
+    <navigator url='{{item.url}}' wx:for='{{items}}'wx:key>
+      <view class='box'>
+        <view>
+          <image src='{{item.iconPath}}'></image>
+          <text class='text'>{{item.iconName}}</text>
+        </view>
+        <view>
+          <text class='language'>{{item.language}}</text>
+          <image class='rightArrown' src='{{backArrown}}'></image>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <navigator class='quit'>{{quit}}</navigator>
+  <text class='version'>v1.0</text>
+</view>

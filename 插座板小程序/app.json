@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/set/set",
+    "pages/my/my",
+    "pages/my/language/language",
+    "pages/scene/scene",
+    "pages/my/deviceshare/deviceshare",
+    "pages/set/timelist/timelist",
+    "pages/set/devicemain/devicemain",
+    "pages/set/timing/timing",
+    "pages/my/deviceset/deviceset"
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#4dc1ad",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "images/set.png",
+        "selectedIconPath": "images/setSelected.png",
+        "pagePath": "pages/set/set",
+        "text": "设备"
+      },
+      {
+        "iconPath": "images/scene.png",
+        "selectedIconPath": "images/sceneSelected.png",
+        "pagePath": "pages/scene/scene",
+        "text": "场景"
+      },
+      {
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/mySelected.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4dc1ad",
+    "navigationBarTitleText": "插座板",
+    "navigationBarTextStyle": "#fff"
+  }
+}

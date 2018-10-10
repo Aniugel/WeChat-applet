@@ -1,0 +1,13 @@
+<form>
+    <view class='login'>
+        <view class='list'>
+          <label for='account'>账号</label>
+          <input id='account' type='text' placeholder='请输入账号' name='username' bindinput='changeInputUser'></input>
+        </view>
+        <view class='list'>
+          <label for='psw'>密码</label>
+          <input id='psw' type='password' placeholder='请输入密码' name='pwd' bindinput='changeInputPsw'></input>
+        </view>
+      </view>
+        <button type='primary' bindtap='loginAction'>登录</button>
+</form>

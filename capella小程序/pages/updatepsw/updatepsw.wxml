@@ -1,0 +1,17 @@
+<form bindsubmit='updatePsw'>
+<view class='login'>
+<view class='list'>
+  <label for='oldPsw'>旧密码　　</label>
+  <input id='oldPsw' type='password' placeholder='请输入旧密码' name='oldPsw'></input>
+</view>
+<view class='list'>
+  <label for='newPsw'>新密码　　</label>
+  <input id='newPsw' type='password' placeholder='请输入新密码' name='newPsw'></input>
+</view>
+<view class='list'>
+  <label for='confirmPsw'>确认新密码</label>
+  <input id='confirmPsw' type='password' placeholder='请再次输入新密码' name='confirmPsw'></input>
+</view>
+  </view>
+<button type='primary' form-type='submit'>确认</button>
+</form>

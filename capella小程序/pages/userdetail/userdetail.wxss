@@ -1,0 +1,22 @@
+.list{
+  margin: 20px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+.list view{
+  margin-left: 10px;
+  padding-left: 2px;
+  padding-right: 10px;
+  height: 44px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.list view text:last-child{
+  color: #999;
+}
+.list view:last-child{
+  border: none
+}

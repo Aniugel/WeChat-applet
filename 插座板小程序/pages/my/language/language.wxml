@@ -1,0 +1,4 @@
+<view class='list'>
+  <view bindtap='select' data-zh='zh'><text>{{chinese}}</text><icon class="{{selected?'on':'off'}}"  type='success_no_circle' size='16'></icon></view>
+  <view bindtap='select' data-en='en'><text>{{english}}</text><icon class="{{selected?'off':'on'}}"  type='success_no_circle' size='16'></icon></view>
+</view>

@@ -1,0 +1,38 @@
+.box{
+  height: 342px;
+  background-color: #4dc1ad;
+  text-align: center;
+}
+.box image{
+  width: 153px;
+  height: 153px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.box view{
+  color: #fff;
+}
+.box text{
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.list{
+  padding-top: 76px;
+  display: flex;
+  justify-content: space-around;
+}
+.list image{
+  width: 44px;
+  height: 49px;
+}
+.list text{
+  display: block;
+  margin-top: 15px;
+}
+.list>view,.list>navigator,.list>picker{
+  text-align: center;
+}
+.of{
+  color: #ccc;
+}

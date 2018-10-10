@@ -1,0 +1,6 @@
+<view class='main'>
+  <image src='../../images/scenBg.png'></image>
+  <view>{{virtualExp}}</view>
+  <text>{{text}}</text>
+  <navigator url='../set/devicemain/devicemain'>{{nowExp}}</navigator>
+</view>

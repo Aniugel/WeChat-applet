@@ -1,0 +1,19 @@
+<view class='header'>
+  <image src='../../images/logo.svg'></image>
+  <view>类型：{{entity=="USER"?"用户":""}}</view>
+  <view>公司：{{customer}}</view>
+</view>
+<view class='list'>
+  <view class='item'>
+    <image src='../../images/asset.png'></image>
+    <text>资产</text>
+  </view>
+  <view class='item' bindtap='deviceTap'>
+    <image src='../../images/part.png'></image>
+    <text>设备</text>
+  </view>
+  <view class='item'>
+    <image src='../../images/dashboard.png'></image>
+    <text>仪表板</text>
+  </view>
+</view>

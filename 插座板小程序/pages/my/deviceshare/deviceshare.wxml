@@ -1,0 +1,36 @@
+<view class='wraper'>
+  <view class='userInfo'>
+    <image src='../../../images/userImg.png'></image>
+    <view class='name'>{{username}}</view>
+    <text>{{describe}}</text>
+  </view>
+    <view class='share'>{{sharePeople}}({{num}})</view>
+  <view class='list'>
+    <!-- <view class='li' wx:for="{{items}}">
+      <view>{{item.infoNum}}</view>
+      <text>{{item.email}}</text>
+    </view> -->
+    <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="">
+      <view class="content">
+        <view>{{item.infoNum}}</view>
+        <text>{{item.email}}</text>
+      </view>
+      <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+    </view>
+  </view>
+  <view class='pop' bindtap='modalinput'>
+    <image src='../../../images/addMore.png'></image>
+    <view>{{addPeople}}</view>
+  </view>
+ <modal hidden="{{hiddenmodalput}}" title="{{title}}" confirm-text="{{confirm}}" cancel-text="{{reset}}" bindcancel="cancel" bindconfirm="confirm">  
+    <input type='text'placeholder="{{placeholder}}" auto-focus/>  
+</modal> 
+</view>
+<!-- 
+
+<view class="container">
+ <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="">
+  <view class="content">{{item.content}}</view>
+  <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+ </view>
+</view> -->

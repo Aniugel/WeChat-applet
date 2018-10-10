@@ -1,0 +1,21 @@
+<view class='main'>
+  <view class='box'>
+    <image bindtap='socket' src="{{socket?'../../../images/socketOn.png':'../../../images/socketOff.png'}}"></image>
+    <view>{{socket?'插座已开启':'插座已关闭'}}</view>
+    <text>{{socketText}}</text>
+  </view>
+  <view class='list'>
+    <navigator url='../timelist/timelist' hover-class='none'>
+      <image src="{{timeIcon?'../../../images/setTimeOn.png':'../../../images/setTimeOff.png'}}"></image>
+      <text class="{{timeIcon?'on':'of'}}">{{timeText}}</text>
+    </navigator>
+    <view bindtap='socket'>
+      <image src="{{switchIcon?'../../../images/switchThreeOn.png':'../../../images/switchThreeOff.png'}}"></image>
+      <text class="{{switchIcon?'on':'of'}}">{{switchIcon?'开启':'关闭'}}</text>
+    </view>
+    <picker mode='time'  start="01:00" end="23:59">
+      <image src="{{endTimeIcon?'../../../images/timeOn.png':'../../../images/timeOff.png'}}"></image>
+      <text class="{{endTimeIcon?'on':'of'}}">{{endTimeText}}</text>
+    </picker>
+  </view>
+</view>

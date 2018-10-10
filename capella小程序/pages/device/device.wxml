@@ -1,0 +1,13 @@
+<navigator url='../devicedetail/devicedetail?userId={{userId[index]}}' class='list' wx:for='{{list}}' wx:key>
+  <view class='item'>
+    <text class='f16'>{{list[index].name}}</text>
+    <view>{{list[index].type}}</view>
+  </view>
+  <view class='item'>
+    <text>{{time[index]}}</text>
+    <view>{{list[index].additionalInfo.gateway}}</view>
+  </view>
+  <view class='item'>
+    <image src='../../images/rightArrow.png'></image>
+  </view>
+</navigator>

@@ -1,0 +1,17 @@
+<view class='main'>
+  <view class='time'>
+  <picker mode='time' value='{{time}}' start='00:00' end='23:59' bindchange="picker">{{time}}
+  </picker>
+  </view>
+  <view class='week'>
+    <view class='title'>{{repeat}}</view>
+    <view class='box'>
+      <text data-index='{{index}}' bindtap='tap' class="{{item.open?'on':''}}" wx:for='{{items}}' wx:key>{{item.week}}</text>
+    </view>
+  </view>
+  <view class='switch'>
+    <text>{{swicth}}</text>
+    <switch></switch>
+  </view>
+  <view class='btn' bindtap='btn'>{{save}}</view>
+</view>

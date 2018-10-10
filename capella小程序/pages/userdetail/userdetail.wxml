@@ -1,0 +1,24 @@
+<view class='list'>
+  <view>
+    <text>姓</text>
+    <text>{{lastName}}</text>
+  </view>
+  <view>
+    <text>名</text>
+    <text>{{firstName}}</text>
+  </view>
+  <view>
+    <text>账号</text>
+    <text>{{name}}</text>
+  </view>
+</view>
+<view class='list'>
+  <view>
+    <text>实体</text>
+    <text>{{entityType}}</text>
+  </view>
+  <view>
+    <text>所属:{{}}</text>
+    <text>{{customer}}</text>
+  </view>
+</view> 

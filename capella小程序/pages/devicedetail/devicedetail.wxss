@@ -1,0 +1,30 @@
+.list{
+  margin-top: 20px;
+}
+.list text{
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin: 10px;
+}
+.list .section{
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-flow: wrap */
+}
+.list input{
+  /* border: 1px solid red; */
+  text-align: right;
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  padding:0 5px;
+  height: 30px;
+  width:60px;
+}
+button{
+  width: 90%;
+  margin: 10px auto;
+}

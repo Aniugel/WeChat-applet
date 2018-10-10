@@ -1,0 +1,19 @@
+view,text{
+  color: #666;
+}
+.main{
+  background-color: #f7f7f7; 
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.on{
+  display: block;
+}
+.off{
+  display: none;
+}
+view,text{
+  font-size: 16px;
+}

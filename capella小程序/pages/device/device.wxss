@@ -1,0 +1,26 @@
+.list{
+  height: 44px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
+.f16{
+  display: inline-block;
+  font-size: 18px;
+  color: #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width:160px;
+  white-space:nowrap;
+}
+.list .item{
+  color: #999;
+  font-size: 14px;
+}
+.list .item image{
+  width: 8px;
+  height: 15px;
+}

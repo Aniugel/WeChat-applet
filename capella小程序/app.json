@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/login/login",
+    
+    "pages/device/device",
+    "pages/devicedetail/devicedetail",
+    "pages/home/home",
+    "pages/my/my",
+    "pages/demo/demo",
+    "pages/logs/logs",
+    "pages/userdetail/userdetail",
+    "pages/updatepsw/updatepsw"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "capella",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#1AAD19",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/homeOff.png",
+        "selectedIconPath": "images/homeOn.png"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "text": "设备",
+        "iconPath": "images/deviceOff.png",
+        "selectedIconPath": "images/deviceOn.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/myOff.png",
+        "selectedIconPath": "images/myOn.png"
+      }
+    ]
+  }
+}

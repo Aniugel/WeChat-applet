@@ -1,0 +1,17 @@
+<view class='main'>
+  <!-- <image class='imageBg' src='../../images/mainBg.png'></image>
+  <view class='btn'>{{addDevice}}</view> -->
+  <view class='box'>
+    <view class='list' wx:for='{{items}}' wx:key>
+      <image src='{{bgUrl}}'></image>
+        <navigator url='devicemain/devicemain'>
+          <image src='{{item.socketSrc}}'></image>
+          <text>{{socketText}}</text>
+        </navigator>
+        <view class='switchBox' bindtap='switch' data-index="{{index}}">
+            <image src="{{item.switchBtn?'../../images/switchOn.png':'../../images/switchOff.png'}}"></image>
+            <text class="{{item.switchBtn?'on':'of'}}">{{item.switchBtn?'开启':'关闭'}}</text>
+        </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+.list{
+  background-color: #fff;
+}
+.list .li .box{
+  height: 44px;
+  margin-left: 20px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list .li .rightArrown{
+  width: 6px;
+  height: 11px;
+  margin-right: 20px;
+}
+.list .li view{
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list .li view image{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

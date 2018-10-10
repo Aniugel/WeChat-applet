@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="">
+    <view class="content">
+      <view class='li'bindtap='catch'>
+        <view><text>{{time}}</text><view>{{open}}</view><text>{{week}}</text></view>
+        <switch catchtap='switch'></switch>
+      </view>
+    
+    </view>
+    <view class="del" bindtap="del" data-index="{{index}}">删除</view>
+  </view>
+</view>
+<view class='pop' bindtap='modalinput'bindtap='catch'>
+    <image src='../../../images/addMore.png'></image>
+</view>

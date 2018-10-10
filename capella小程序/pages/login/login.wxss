@@ -1,0 +1,24 @@
+.login{
+  background-color: #fff;
+  margin-top: 30px;
+}
+.login .list{
+  display: flex;
+  height: 44px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-left: 15px;
+}
+.login .list:last-child{
+  border-bottom: none;
+}
+.login .list label{
+  margin-right: 10px;
+}
+.login .list input{
+  width: 220px;
+}
+button{
+  margin-top: 30px;
+  width: 90%;
+}
